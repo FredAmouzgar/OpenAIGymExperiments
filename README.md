@@ -4,4 +4,4 @@ The code presented here is my pre-experiments with PPO and REINFORCE algorithm b
 
 This code mainly targeted the <a href="https://gym.openai.com/envs/LunarLander-v2/">LunarLander-V2</a> environment from the OpenAI Gym as shown below.
 
-<img src="https://github.com/FredAmouzgar/OpenAIGymExperiments/raw/master/pics/LunarLander.png" width=400 height=300>
+<center><img src="https://github.com/FredAmouzgar/OpenAIGymExperiments/raw/master/pics/LunarLander.png" width=400 height=300></center>
