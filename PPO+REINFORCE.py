@@ -158,7 +158,7 @@ def main():
     env = gym.make(env_name)
     state_dim = env.observation_space.shape[0]
     action_dim = 4
-    render = False
+    render = True
     solved_reward = 600         # stop training if avg_reward > solved_reward
     #solved_reward = 230   # MAIN      # stop training if avg_reward > solved_reward
     log_interval = 50           # print avg reward in the interval
