@@ -8,7 +8,7 @@ This code mainly targeted the <a href="https://gym.openai.com/envs/LunarLander-v
 
 How to run the code:
 ```console
-foo@bar:~$ 
+foo@bar:~$ python3 PPO+REINFORCE.py --reinforce_lambda=0 --ppo_lambda=100 --ppo_algorithm={clipped-only|clipped-value|full}
 ```
 <hr>
 Credit: <a href="https://arxiv.org/abs/1707.06347">PPO paper</a>, <a href="https://link.springer.com/article/10.1007/BF00992696">REINFORCE paper</a>, <a href="https://github.com/nikhilbarhate99/PPO-PyTorch">PPO implementation</a>
